@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Inicio</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      background-color: #f0f0f0; /* Cambia el color de fondo */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      background-color: #fff; /* Fondo blanco para el contenido */
+      border-radius: 8px; /* Bordes redondeados */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+      padding: 20px;
+      margin-top: 20px; /* Espacio superior */
+    }
+
+    .header, .footer {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+      border-top-left-radius: 8px; /* Bordes redondeados solo arriba en el header */
+      border-top-right-radius: 8px;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .menu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #333;
+      border-bottom-left-radius: 8px; /* Bordes redondeados solo abajo en el menú */
+      border-bottom-right-radius: 8px;
+      overflow: hidden; /* Para contener los bordes redondeados */
+    }
+
+    .menu li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      display: block;
+    }
+
+    .menu li a:hover {
+      background-color: #111;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h1 {
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .section p {
+      text-align: center;
+      font-size: 1.2em;
+      color: #666;
+    }
+
+    .footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 10px;
+      border-bottom-left-radius: 8px; /* Bordes redondeados solo arriba en el footer */
+      border-bottom-right-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Bienvenido a nuestra página</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="perfil-usuario.html">Perfil</a></li>
+          <li><a href="configuracion.html">Configuración</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <div class="section">
+        <h1>¡Bienvenido!</h1>
+        <p>Gracias por visitar nuestra página. Aquí encontrarás información interesante y opciones para personalizar tu experiencia.</p>
+      </div>
+
+      <div class="section">
+        <h3>Contenido Destacado</h3>
+        <p>Este es un espacio para mostrar contenido relevante o destacado de tu sitio.</p>
+      </div>
+
+      <div class="section">
+        <h3>Noticias Recientes</h3>
+        <p>Aquí puedes incluir noticias, actualizaciones o eventos recientes de tu sitio o empresa.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Pie de página</p>
+    </div>
+  </div>
+</body>
+</html>
